@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Music web player script by Wouter de Bruijn public@js.hedium.nl
+# Music web player script by Wouter de Bruijn
 # Added KDE connect at 26-10-2021
 
 INSTANCE=$(playerctl --list-all 2> /dev/null | grep firefox)
