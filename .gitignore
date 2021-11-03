@@ -1,6 +1,9 @@
 *
 !.config
 !.config/*
+!.config/i3/config
+!.config/i3/config/*
+!.config/polybarmodules/*
 !bin
 !bin/*
 !.gitignore
