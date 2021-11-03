@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Small lock script by Wouter at 21-09
+
+i3lock -c 00000000

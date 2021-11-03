@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# By Wouter de Bruijn @ 26-10-2021
+
+grep "local" /tmp/playerinstance && INSTANCE=$(playerctl --list-all 2> /dev/null | grep firefox) || INSTANCE=$(playerctl --list-all 2> /dev/null | grep kdeconnect)
+
+INSTANCEARRAY=($INSTANCE)
+
+playerctl -p "${INSTANCEARRAY[0]}" $@

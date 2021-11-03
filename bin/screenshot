@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# By Wouter de Bruijn @ 2021-06-13
+
+
+mkdir /tmp/screenshots/ 2> /dev/null
+
+scrot $@ '/tmp/screenshots/%Y-%m-%d_$wx$h.png' -e 'xclip -selection clipboard -t image/png < $f'

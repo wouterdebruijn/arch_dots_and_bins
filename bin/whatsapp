@@ -1,0 +1,4 @@
+#!/bin/bash
+# Whatsapp launch script using Google chrome in APP mode by Wouter de Bruijn 2020/12/18
+
+chromium --app="https://web.whatsapp.com/"

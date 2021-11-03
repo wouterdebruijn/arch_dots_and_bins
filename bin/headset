@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Bluetoothctl connect script by Wouter de Bruijn 2021/02/12
+
+
+bluetoothctl power on
+bluetoothctl connect D0:8A:55:E5:5E:EA && dunstify "Connected" -t 1000 || FAILED=true
+
+[ "$FAILED" ] && dunstify "Could not connect." || musicctl pause
+[ "$FAILED" ] && setplayerinstance mobile || setplayerinstance local

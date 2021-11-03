@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Control script made by Wouter @ 26-10-2021
+
+echo "$@" > /tmp/playerinstance

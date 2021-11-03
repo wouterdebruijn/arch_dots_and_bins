@@ -1,0 +1,4 @@
+#!/bin/bash
+# Todoist launch script using Google chrome in APP mode by Wouter de Bruijn 2021/08/06
+
+chromium --app="https://todoist.com/app/today"

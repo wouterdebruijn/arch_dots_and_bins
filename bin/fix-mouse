@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Simple script to set prefered options for trackpad, by Wouter on 2021-02-08 @ Terschelling!
+
+xinput set-prop "pointer:SYNA7DB5:01 06CB:7DB7 Touchpad" "libinput Disable While Typing Enabled" 0
+xinput set-prop "pointer:SYNA7DB5:01 06CB:7DB7 Touchpad" "libinput Tapping Enabled" 1

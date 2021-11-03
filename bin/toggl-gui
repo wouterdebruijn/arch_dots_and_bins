@@ -1,0 +1,4 @@
+#!/bin/bash
+# Toggl launch script using Google chrome in APP mode by Wouter de Bruijn 2021/08/06
+
+chromium --app="https://track.toggl.com/timer"
