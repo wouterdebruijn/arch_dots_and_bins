@@ -6,4 +6,8 @@
 !.config/polybarmodules/*
 !bin
 !bin/*
+!.oh-my-zsh
+!.oh-my-zsh/themes
+!.oh-my-zsh/themes/darkblood-edited.zsh-theme
+!.zshrc
 !.gitignore
